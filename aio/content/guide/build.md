@@ -385,7 +385,7 @@ If you edit the proxy configuration file, you must relaunch the `ng serve` proce
 ### Rewrite the URL path
 
 The `pathRewrite` proxy configuration option lets you rewrite the URL path at run time.
-For example, specify the following `pathRewrite` value to the proxy configuration to remove "api" from the end of a path.
+For example, specify the following `pathRewrite` value to the proxy configuration to remove `/api` from the beginning of the path.
 
 <code-example format="json" language="json">
 
